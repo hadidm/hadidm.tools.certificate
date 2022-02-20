@@ -1,0 +1,35 @@
+{
+    "parameter" : {
+        "event_name": "iamSchool and iamTeacher Training with Dinas Pendidikan Kabupaten Klaten",
+        "template" : "template.pdf",
+        "data" : "data.csv",
+        "email_col": "email_address",
+        "subject": "[IAM SCHOOL] Thanks for participated of our event",
+        "email_message": "sample_email_message.html",
+        "replyto": "noreply@iamedu.co.id",
+        "attachments": []
+    },
+    "writer" : {
+        "pdf_size": [837, 592],
+        "cert_id": "KLTA 0121 3262 32{{seq}}72",
+        "fonts": ["Montserrat-Black", "Montserrat-Light"],
+        "texts": [
+            {
+                "pos_x": 225,
+                "pos_y": 0,
+                "value_col": "full_name",
+                "font": "Montserrat-Black",
+                "size": 34,
+                "align": "C"
+            },
+            {
+                "pos_x": 142,
+                "pos_y": 145,
+                "value_col": "cert_id",
+                "font": "Montserrat-Light",
+                "size": 9,
+                "align": "C"
+            }
+        ]
+    }
+}
